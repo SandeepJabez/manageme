@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.manageme.HelloController">
+    <children>
+        <Label layoutX="250.0" layoutY="36.0" text="EMERGENCY PATIENT" />
+        <Label layoutX="39.0" layoutY="100.0" text="PATIENT NAME:" />
+        <Label layoutX="41.0" layoutY="133.0" text="AGE:" />
+        <Label layoutX="39.0" layoutY="170.0" text="BLOOD GROUP:" />
+        <Label layoutX="277.0" layoutY="210.0" text="BILLING " />
+        <Label layoutX="41.0" layoutY="238.0" text="BASE FARE:" />
+        <Label layoutX="41.0" layoutY="262.0" text="DISCOUNT:" />
+        <Label layoutX="41.0" layoutY="279.0" text="TAX:" />
+        <Label layoutX="39.0" layoutY="320.0" text="TOTAL PAYABLE:" />
+        <Button layoutX="492.0" layoutY="323.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="69.0" text="HOME" />
+        <TextField layoutX="140.0" layoutY="96.0" />
+        <TextField layoutX="140.0" layoutY="131.0" />
+        <TextField layoutX="140.0" layoutY="166.0" />
+        <Label layoutX="322.0" layoutY="100.0" text="PATIENT CLASS:" />
+        <ComboBox layoutX="417.0" layoutY="96.0" prefWidth="150.0" />
+        <TextArea layoutX="417.0" layoutY="146.0" prefHeight="48.0" prefWidth="136.0" />
+        <Label layoutX="322.0" layoutY="157.0" text="DESCRIPTION" />
+      <Label layoutX="39.0" layoutY="296.0" text="EMERGENCY FARE:" />
+    </children>
+
+</AnchorPane>
