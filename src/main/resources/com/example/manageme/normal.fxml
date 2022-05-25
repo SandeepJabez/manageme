@@ -21,7 +21,6 @@
       <TextField layoutX="140.0" layoutY="131.0" promptText="age" />
       <TextField layoutX="140.0" layoutY="166.0" promptText="blood group" />
       <Label layoutX="322.0" layoutY="100.0" text="PATIENT CLASS:" />
-      <ComboBox layoutX="417.0" layoutY="96.0" prefWidth="150.0" />
       <TextArea layoutX="417.0" layoutY="146.0" prefHeight="48.0" prefWidth="136.0" promptText="desc" />
       <Label layoutX="322.0" layoutY="157.0" text="DESCRIPTION" />
       <TextField layoutX="128.0" layoutY="234.0" promptText="base fare" />
@@ -39,5 +38,11 @@
             <Color red="0.21111111342906952" green="0.5924074053764343" blue="1.0" />
          </color>
       </AmbientLight>
+      <MenuButton layoutX="426.0" layoutY="96.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="74.0" text="Class">
+        <items>
+          <MenuItem mnemonicParsing="false" text="A" />
+          <MenuItem mnemonicParsing="false" text="B" />
+        </items>
+      </MenuButton>
    </children>
 </AnchorPane>
