@@ -3,10 +3,11 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="740.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.manageme.HelloController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+fx:controller="com.example.manageme.HelloController">
    <children>
       <Label layoutX="272.0" layoutY="26.0" text="MANAGE ME" />
       <Button layoutX="280.0" layoutY="159.0" mnemonicParsing="false" onAction="#onHelloButtonClick" text="OPD" />
-      <Button layoutX="258.0" layoutY="208.0" mnemonicParsing="false" onAction="#onEmergencyButtonClick" text="EMERGENCY" textFill="RED" />
+      <Button layoutX="258.0" layoutY="208.0" mnemonicParsing="false" text="EMERGENCY" textFill="RED" />
    </children>
 </Pane>
