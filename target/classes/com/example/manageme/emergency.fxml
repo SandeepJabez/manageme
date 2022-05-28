@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.manageme.HelloController">
+<AnchorPane fx:id="namebase2" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.manageme.HelloController">
     <children>
         <Label layoutX="250.0" layoutY="36.0" text="EMERGENCY PATIENT" />
         <Label layoutX="39.0" layoutY="100.0" text="PATIENT NAME:" />
@@ -13,21 +13,21 @@
         <Label layoutX="41.0" layoutY="238.0" text="BASE FARE:" />
         <Label layoutX="41.0" layoutY="261.0" text="DISCOUNT:" />
         <Label layoutX="37.0" layoutY="340.0" text="TOTAL PAYABLE:" />
-        <Button layoutX="516.0" layoutY="19.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="69.0" text="HOME" />
+        <Button fx:id="closeButton" layoutX="516.0" layoutY="19.0" mnemonicParsing="false" onAction="#onHomeButtonClick" prefHeight="33.0" prefWidth="69.0" text="HOME" />
         <TextField layoutX="140.0" layoutY="96.0" promptText="Name" />
         <TextField layoutX="140.0" layoutY="131.0" promptText="Age" />
         <TextField layoutX="140.0" layoutY="166.0" promptText="Blood Group" />
         <Label layoutX="322.0" layoutY="100.0" text="PATIENT CLASS:" />
-        <ComboBox layoutX="417.0" layoutY="96.0" prefWidth="150.0" />
         <TextArea layoutX="417.0" layoutY="146.0" prefHeight="48.0" prefWidth="136.0" promptText="desc" />
         <Label layoutX="322.0" layoutY="157.0" text="DESCRIPTION" />
       <Label layoutX="41.0" layoutY="293.0" text="EMERGENCY FARE:" />
-      <Label layoutX="148.0" layoutY="292.0" prefHeight="18.0" prefWidth="101.0" />
+      <Label fx:id="tax" layoutX="148.0" layoutY="292.0" prefHeight="18.0" prefWidth="101.0" />
       <Label layoutX="148.0" layoutY="339.0" prefHeight="18.0" prefWidth="101.0" />
-      <Label layoutX="148.0" layoutY="260.0" prefHeight="18.0" prefWidth="101.0" />
-      <Button layoutX="396.0" layoutY="344.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="163.0" text="Submit and Calculate" />
-      <Label layoutX="148.0" layoutY="339.0" prefHeight="18.0" prefWidth="101.0" />
-      <TextField layoutX="124.0" layoutY="234.0" promptText="Base Price" />
+      <Label fx:id="discount" layoutX="148.0" layoutY="260.0" prefHeight="18.0" prefWidth="101.0" />
+      <Button layoutX="396.0" layoutY="344.0" mnemonicParsing="false" onAction="#onemergencysubmit" prefHeight="26.0" prefWidth="163.0" text="Submit and Calculate" />
+      <Label fx:id="total" layoutX="148.0" layoutY="339.0" prefHeight="18.0" prefWidth="101.0" />
+      <TextField fx:id="namebasenormal" layoutX="124.0" layoutY="234.0" promptText="Base Price" />
+      <TextField fx:id="nameclass" layoutX="417.0" layoutY="96.0" promptText="class ABCD" />
     </children>
 
 </AnchorPane>
